@@ -150,3 +150,15 @@ text-align: center;
     /* border-top: 10px; */
     border-color: aliceblue;
 }
+
+.button{
+    text-align: center;
+}
+/* Masquer le bouton d'impression */
+.print-button {
+    display: block;
+  }
+
+  .print-button.hidden {
+    display: none;
+  }
